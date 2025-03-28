@@ -1,0 +1,178 @@
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    background-color: navy;
+    display: flex; 
+    justify-content: center; 
+}
+nav ul li select {
+    font-size: 16px;
+    padding: 5px;
+    border-radius: 10px;
+    border: none;
+    width: 100px; 
+    text-align: center;
+}
+nav ul li {
+    position: relative;
+    padding: 15px 20px;
+    font-size: 18;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 30px;
+    display: block;
+}
+
+nav ul li:hover {
+    background-color: darkblue;
+}
+
+
+.dropdown-menu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: white;
+    list-style-type: none;
+    border: 2px solid gray;
+    width: 10px;
+}
+
+.dropdown-menu li {
+    padding: px;
+}
+
+.dropdown-menu li a {
+    color: black;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+}
+
+
+
+* {
+    margin: 200;
+    padding: 200;
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f5f5f5;
+    display: flex;
+    padding: 0;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    flex-direction: column;
+    min-height: 100vh;
+}
+    
+.box {
+    width: 100%;
+    max-width: 900vh;
+    border-radius: 8px;
+    display: flex;
+padding: 20px;
+background-color: white;
+flex-direction: column;
+box-shadow: 5px 5px 15px rgba(0, 0 ,0 , 0.2);
+}
+
+
+header  {
+    background: darkgreen;
+    padding: 20px;
+    color: white;
+    text-align: center;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.logo {
+    width: 80px;
+    display: block;
+    margin: 200 auto 20px auto;
+}
+
+h1 {
+    margin-bottom: 4;
+}
+
+
+nav select {
+    padding: 5px;
+    font-size: 16px;
+}
+
+
+section {
+    background: white;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0,0,0,0.1);
+}
+
+.main-image {
+    width: 800px;
+    display: block;
+    margin: 0 auto 25px auto;
+    width: 490px;
+    height: 785px;
+    object-fit: cover;
+
+}
+
+
+    footer {
+background-color: #2c3e50;
+color: white;
+text-align: center;
+padding: 15PX 0;
+position: absolute;
+width: 100%;
+bottom: 50px;
+left: 8px0;
+
+    }
+    
+}
+header , nav{
+    margin-bottom: 20px;
+    margin-top: 20px;
+    padding-bottom: 15px;
+
+}
+
+
+
+.content {
+    display: flex; 
+    align-items: center; 
+    gap: 20px; 
+    flex: 1;
+}
+
+.content img {
+    width: 250px; 
+    height: auto;
+    border-radius: 5px; 
+}
+
+.content p {
+    flex: 1; 
+    font-size: 16px;
+    line-height: 1.5;
+}
